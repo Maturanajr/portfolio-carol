@@ -1,8 +1,9 @@
 import React,{ useContext} from 'react';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
-import Show360 from '../Projects/Show360/Shows360'
-import OtherProjects from '../Projects/OtherProjects/OtherProjects'
+import Show360 from './Show360/Shows360'
+import OtherProjects from './OtherProjects/OtherProjects'
+import PortfolioButtonEnd from './portfolioButtonEnd'
 import './Projects.css'
 
 import jantar from '../../assets/png/projects/jantar1.png'
@@ -29,6 +30,8 @@ function Projects() {
                 <OtherProjects src={quartobebe} label='Quarto do bebe' />
                 <OtherProjects src={banheiro} label='Banheiro/Lavabo' />
                 <OtherProjects src={comercial} label='Ambiente comercial' />
+                <PortfolioButtonEnd/>
+                
             </div>
         </div>
     )

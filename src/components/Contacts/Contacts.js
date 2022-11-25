@@ -147,7 +147,7 @@ function Contacts() {
                                         href={socialsData.instagram}
                                         target='_blank'
                                         rel='noreferrer'
-                                        className={classes.socialIcon}
+                                        className={classes.detailsIcon}
                                     >
                                         <FaInstagram aria-label='Instagram' />
                                     </a>
