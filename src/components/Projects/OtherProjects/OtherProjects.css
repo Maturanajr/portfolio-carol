@@ -1,0 +1,23 @@
+.OtherContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #eaeaea;
+    padding-bottom: 2.5rem;
+}
+.OtherImage {
+    width: 90%;
+}
+
+.OtherImage img{
+    width: 100%;
+    height: auto;
+}
+
+.labelImage{
+    font-size: 2.5rem;
+    align-self: flex-start;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
