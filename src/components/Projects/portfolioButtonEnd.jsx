@@ -34,19 +34,20 @@ export default function PortfolioButtonEnd() {
   return (
     <div style={{display:'flex', flexDirection:'column', background:'#eaeaea', textAlign: 'center'}}>
         <p style={{color: theme.primary, fontSize: '1rem'}}>Baixe o portfolio completo</p>
-
-        {headerData.resumePdf && (
-            <a style={{margin:'0.3rem'}}
-                href={headerData.resumePdf}
-                download='resume'
-                target='_blank'
-                rel='noreferrer'
-            >
-                <Button className={classes.resumeBtn}>
-                    Portfolio
-                </Button>
-            </a>
-        )}
+        <div>
+            {headerData.resumePdf && (
+                <a style={{margin:'0.3rem'}}
+                    href={headerData.resumePdf}
+                    download='resume'
+                    target='_blank'
+                    rel='noreferrer'
+                >
+                    <Button className={classes.resumeBtn}>
+                        Portfolio
+                    </Button>
+                </a>
+            )}
+        </div>
     </div>
   )
 }
