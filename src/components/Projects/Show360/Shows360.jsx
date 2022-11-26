@@ -27,7 +27,7 @@ export default function Show360(props) {
         <h2 className='labelPanoramaMobile' style={{color: theme.primary}}>Panorama 360º</h2>
           <Pannellum
             width="100%"
-            height="20rem"
+            height="15rem"
             image={props.image}
             pitch={10}
             yaw={180}

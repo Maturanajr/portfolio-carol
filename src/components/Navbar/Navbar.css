@@ -68,6 +68,14 @@
     .navLink--container {
         margin-top: 3rem;
     }
+
+    .logo--image{
+        width: 90%;
+    }
+
+    .logo--image img{
+        transform: translate(3%,0);
+    }
 }
 
 

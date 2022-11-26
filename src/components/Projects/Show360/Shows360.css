@@ -8,18 +8,20 @@
 }
 
 .Pannel360{
-    width: 90%;
+    width: 100%;
 }
 
 .labelPanorama{
     font-size: 2.5rem;
     align-self: flex-start;
     margin-bottom: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 1.5rem;
+    font-family: var(--primaryFont);
 }
 .labelPanoramaMobile{
     font-size: 1.5rem;
     align-self: flex-start;
     margin-bottom: 0.5rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
+    font-family: var(--primaryFont);
 }

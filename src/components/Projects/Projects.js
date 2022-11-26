@@ -25,9 +25,9 @@ function Projects() {
             <div>
                 <Show360 image='360image.jpg' />
                 <OtherProjects src={fachada} label='Fachada' />
-                <OtherProjects src={lazer} label='Area de lazer' />
+                <OtherProjects src={lazer} label='Área de lazer' />
                 <OtherProjects src={jantar} label='Sala de jantar' />
-                <OtherProjects src={quartobebe} label='Quarto do bebe' />
+                <OtherProjects src={quartobebe} label='Quarto do bebê' />
                 <OtherProjects src={banheiro} label='Banheiro/Lavabo' />
                 <OtherProjects src={comercial} label='Ambiente comercial' />
                 <PortfolioButtonEnd/>

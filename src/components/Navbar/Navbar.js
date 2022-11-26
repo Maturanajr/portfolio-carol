@@ -129,12 +129,15 @@ function Navbar() {
     return (
         <div className='navbar'>
             <div  className='navbar--container'>
-                <div className='logo--image'>
-                    <img
-                        src={logo}
-                        alt=''
-                        />
+                <div className='logo--box'>
+                    <div className='logo--image'>
+                        <img
+                            src={logo}
+                            alt=''
+                            />
+                    </div>
                 </div>
+                
                 <IoMenuSharp
                     className={classes.navMenu}
                     onClick={handleDrawerOpen}

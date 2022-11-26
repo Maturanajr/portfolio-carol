@@ -33,10 +33,10 @@ export default function PortfolioButtonEnd() {
     const classes = useStyles();
   return (
     <div style={{display:'flex', flexDirection:'column', background:'#eaeaea', textAlign: 'center'}}>
-        <p style={{color: theme.primary, fontSize: '1rem'}}>Baixe o portfolio completo</p>
+        <p style={{color: theme.primary, fontSize: '1rem', marginBottom: '1rem',fontFamily: 'var(--primaryFont)'}}>Baixe o portfolio completo</p>
         <div>
             {headerData.resumePdf && (
-                <a style={{margin:'0.3rem'}}
+                <a
                     href={headerData.resumePdf}
                     download='resume'
                     target='_blank'
