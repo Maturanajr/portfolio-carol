@@ -10,7 +10,7 @@ export default function Show360(props) {
   <div className='Background'>
     <div className='Pannel360'>
       <BrowserView>
-        <h2 className='labelPanorama' style={{color: theme.primary}}>Panorama 360º</h2>
+        <h2 className='labelPanorama' style={{color: theme.primary}}>{props.label}</h2>
         <Pannellum
           width="100%"
           height="30rem"
@@ -24,7 +24,7 @@ export default function Show360(props) {
         </Pannellum>
       </BrowserView>
       <MobileView>
-        <h2 className='labelPanoramaMobile' style={{color: theme.primary}}>Panorama 360º</h2>
+        <h2 className='labelPanoramaMobile' style={{color: theme.primary}}>{props.label}</h2>
           <Pannellum
             width="100%"
             height="15rem"

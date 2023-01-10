@@ -6,6 +6,7 @@ import OtherProjects from './OtherProjects/OtherProjects'
 import PortfolioButtonEnd from './portfolioButtonEnd'
 import './Projects.css'
 
+import quarto360 from '../../assets/jpg/projects/360quarto.jpg'
 import jantar from '../../assets/png/projects/jantar1.png'
 import lazer from '../../assets/png/projects/lazer1.png'
 import fachada from '../../assets/png/projects/fachada1.png'
@@ -23,7 +24,8 @@ function Projects() {
                 </div>
             </div>
             <div>
-                <Show360 image='360image.jpg' />
+                <Show360 image={quarto360} label='Quarto 360'/>
+                <Show360 image='360image.jpg' label='Recepção 360'/>
                 <OtherProjects src={fachada} label='Fachada' />
                 <OtherProjects src={lazer} label='Área de lazer' />
                 <OtherProjects src={jantar} label='Sala de jantar' />
